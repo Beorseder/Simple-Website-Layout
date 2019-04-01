@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+}
+
+.tm-header {
+    background-color: #FFFFFF;
+}
+.tm-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tm-nav {
+    float: right;
+}
+.tm-nav ul li {
+    display: inline-block;
+}
+.tm-nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #303030;
+}
