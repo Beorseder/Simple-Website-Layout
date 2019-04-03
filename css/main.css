@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -10,9 +11,18 @@ body {
 .tm-header {
     background-color: #FFFFFF;
 }
+.tm-header::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
 .tm-container {
     max-width: 1200px;
     margin: 0 auto;
+}
+.tm-logo {
+    float:left;
 }
 .tm-nav {
     float: right;
@@ -24,4 +34,8 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     color: #303030;
+    line-height: 60px;
+}
+.tm-nav ul li a:hover {
+    color: #3e99ff;
 }
