@@ -3,10 +3,11 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 body {
     background: #eeeeee;
 }
+
+/*1st part of code*/
 
 .tm-header {
     background-color: #FFFFFF;
@@ -27,6 +28,9 @@ body {
 .tm-nav {
     float: right;
 }
+.tm-nav ul {
+    margin-bottom: 0px;
+}
 .tm-nav ul li {
     display: inline-block;
 }
@@ -38,4 +42,29 @@ body {
 }
 .tm-nav ul li a:hover {
     color: #3e99ff;
+}
+
+/*2nd part of code*/
+
+p {
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+tm-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+tm-top-a {
+    
+}
+tm-article {
+    background: #FFFFFF;
+    padding: 30px;
 }
